@@ -7,7 +7,7 @@ from PyQt6.QtGui import QFont, QPalette, QColor
 
 class SudokuGame(QWidget):
     def __init__(self):
-        super().__init__()
+        super().__init__(}
         self.setWindowTitle("Sudoku Game")
         self.grid_size = 9
         self.mistakes = 0
